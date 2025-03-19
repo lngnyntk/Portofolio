@@ -51,7 +51,25 @@
     '''
 
 ## Color
-    Background rgb(246, 248, 213)
-    Primary rgb(32, 87, 129)
-    Secondary rgb(59, 120, 167)
-    Text Black
+    :root {
+    --Background: rgb(246, 248, 213);
+    --Primary: rgb(33, 133, 213);
+    --Secondary: rgb(52, 140, 212);
+    --Text: Black;
+    }
+
+## Clip-path
+    Clip-Path for custom shape
+    http://bennettfeely.com/clippy/
+    
+    img {
+    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+    }
+
+## Icon
+    Feather Icon
+    Cara Penggunaan:
+    1. Tulis <script src="/src/feather.js"></script> di <head>
+    2. Tulis <i data-feather="github"></i> ditempat yang mau digunakan
+    3. Tulis <script>feather.replace();</script> di <body>
+
